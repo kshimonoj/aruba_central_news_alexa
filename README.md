@@ -6,7 +6,7 @@ It collect network information from Aruba Central and update them to json file o
 This json can be feed for Amazon Alexa Flash Briefing.
 
 # What you need to do
-1. Create AWS Lambda function by using Archive.zip. Use template "lambda-canary-python3"
+1. Create AWS Lambda function by using "Archive.zip". Use template "lambda-canary-python3"
 2. Create S3 bucket. 
 3. Use Template "lambda-canary-python3"
 4. Change IAM policy
