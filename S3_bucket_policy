@@ -1,0 +1,12 @@
+{
+    "Version": "2018-02-26",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::<your S3 Bucketname>/*"
+        }
+    ]
+}
